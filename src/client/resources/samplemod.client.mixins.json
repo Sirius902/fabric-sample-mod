@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.example.mixin.client",
+	"package": "com.github.Sirius902.sample.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"ExampleClientMixin"
+		"SampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

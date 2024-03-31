@@ -1,31 +1,28 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "samplemod",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
+	"name": "Sample mod",
+	"description": "This is a sample mod.",
+	"authors": ["Sirius902"],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Sirius902/fabric-sample-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/samplemod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.github.Sirius902.sample.SampleMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.github.Sirius902.sample.SampleModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"samplemod.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "samplemod.client.mixins.json",
 			"environment": "client"
 		}
 	],
